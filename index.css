@@ -1,0 +1,59 @@
+.container > div {
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffeead;
+  }
+  
+  html, body {
+    background-color: #ffeead;
+    margin: 10px;
+  }
+  
+  .container > div:nth-child(1) {
+    background-color: #96ceb4;	
+  }
+  
+  .container > div:nth-child(2) {
+    background-color: #ff6f69;
+  }
+  
+  .container > div:nth-child(3) {
+    background-color: #88d8b0;
+  }
+  
+  .container > div:nth-child(4) {
+    background-color: #ff6f69;
+  }
+  
+
+
+
+
+
+.container {
+    border: 5px solid #ffcc5c;
+    height: 200px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  /* .container > li {
+    flex: 5;
+    
+  }
+   */
+  
+  .container >  .search {
+    
+  }
+
+  .search{
+    align-self: flex-start;
+  }
+
+/* 
+jutsify content is for x axis
+aligin items is for the y axis. */
